@@ -3,16 +3,23 @@ This is for EuchroGene customers.
 To install:
 
 1. get the installation file:
+```
 wget https://github.com/euchrogene/AdapterRemoval_bowtie2_RSEM/blob/main/Install_RNA-seq_AdapterRemofal_RSEM.sh
+```
 
 2. install the pipeline:
+```
 sudo bash Install_RNA-seq_AdapterRemofal_RSEM.sh
+```
 
 3. check installation
+```
 pipelines # This shows installed pipelines
 RNA-seq_AdapterRemoval_RSEM # this will show help contents
+```
 
 # help contents:
+```
 ________________________________________________________________________________________________
 
 Used Tools: AdapterRemoval => Bowtie2 => RSEM
@@ -57,7 +64,7 @@ Usage;
 -cores          (option)    number of cores for RSEM (default is 32)
 ______________________________________________________________________________________________
 """
-
+```
 
 
 
