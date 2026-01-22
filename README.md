@@ -11,7 +11,7 @@ If you have a Genome sequence and a GFF file, you can use the STAR version in th
 The counts data can be used for PyDESeq2 in this repository.
 
 
-## To install:
+## To install, copy and paste the following commands in a Jupyter Terminal, and execute:
 
 1. get the installation file:
 ```
