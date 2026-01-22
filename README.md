@@ -15,12 +15,18 @@ sudo bash Install_RNA_seq_to_TPM_Bowtie2.sh
 3. check installation
 ```
 pipelines # This shows installed pipelines
-RNA-seq_AdapterRemoval_RSEM # this will show help contents
+
+```
+4. show help content
+```
+RNA_seq_to_TPM_Bowtie2 # this will show the following help contents
 ```
 
 # help contents:
 ```
 ________________________________________________________________________________________________
+
+Pipeline: AdapterRemoval => Bowtie2 => RSEM
 
 RSEM is a pipeline to calculate counts, TPM, and FPKM from genes or transcripts.
 This pipeline fully automates RSEM from the build index through mapping and parsing RSEM results.
@@ -32,16 +38,13 @@ The pipeline consists of building an index, running RSEM, and parsing RSEM resul
 You can run this pipeline by following these methods:
 
 1) simple run for paired-end sequences
-   example: RNA_seq_to_TPM_Bowtie2  \\
-            -seq_path RNA-seq_data -ref_seq CDS_seq.fa -build_index 2
+   example: RNA_seq_to_TPM_Bowtie2 -seq_path RNA-seq_data -ref_seq CDS_seq.fa -build_index 2
 
 2) skip AdapterRemoval and run all the rest of the steps: use all options
-   example: RNA_seq_to_TPM_Bowtie2 -skip_filtering 2 \\
-            -seq_path RNA-seq_data -ref_seq CDS_seq.fa -build_index 2
+   example: RNA_seq_to_TPM_Bowtie2 -skip_filtering 2 -build_index 2 -seq_path RNA-seq_data -ref_seq CDS_seq.fa
             
 3) skip build index and run all the rest of the steps: set '-build_index' option as '2' and use all options
-   example: RNA_seq_to_TPM_Bowtie2 -skip_filtering 1 \\
-            -build_index 2 -seq_path RNA-seq_data -ref_seq CDS_seq.fa
+   example: RNA_seq_to_TPM_Bowtie2 -build_index 1 -seq_path RNA-seq_data -ref_seq CDS_seq.fa
 
 4) only parse RSEM results: set '-parsing_only' option as '2'
    example: RNA_seq_to_TPM_Bowtie2 -seq_path RNA-seq_data -parsing_only 2 
@@ -60,7 +63,6 @@ Usage;
 -target         (option)    1: transcripts including isotypes, 2: representative genes (default is 1)
 -cores          (option)    number of cores for RSEM (default is 32)
 ______________________________________________________________________________________________
-"""
 ```
 
 
