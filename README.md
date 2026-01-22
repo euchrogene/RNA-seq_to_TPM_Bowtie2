@@ -1,5 +1,11 @@
 # This is for EuchroGene customers.
 
+This is a pipeline to process RNA-seq raw data using AdapterRemoval (by default), map RNA-seq reads to the target gene using Bowtie2, and calculate TPM, FPKM, and counts using RSEM.
+To use this pipeline, all RNA-seq data should be stored in a folder, and the folder path must be provided as the input to '-seq_path'.
+** The input ref_seq of Bowtie2 version is CDS sequence. **
+If you have a Genome sequence and a GFF file, you can use the STAR version in this repository.
+The counts data can be used for PyDESeq2 in this repository.
+
 ## To install:
 
 1. get the installation file:
