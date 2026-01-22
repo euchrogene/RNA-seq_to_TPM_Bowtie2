@@ -22,7 +22,7 @@ pipelines # This shows installed pipelines
 RNA_seq_to_TPM_Bowtie2 # this will show the following help contents
 ```
 
-# help contents:
+## help contents:
 ```
 ________________________________________________________________________________________________
 
