@@ -4,7 +4,7 @@ This is a pipeline to process RNA-seq raw data using AdapterRemoval (by default)
 
 To use this pipeline, all RNA-seq data should be stored in a folder, and the folder path must be provided as the input to '-seq_path'.
 
-** The input ref_seq of Bowtie2 version is CDS sequence. **
+** The input ref_seq of Bowtie2 version is CDS (important). **
 
 If you have a Genome sequence and a GFF file, you can use the STAR version in this repository.
 
