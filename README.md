@@ -1,6 +1,6 @@
 # This is for EuchroGene customers.
 
-To install:
+## To install:
 
 1. get the installation file:
 ```
@@ -68,11 +68,11 @@ ________________________________________________________________________________
 
 # Citation
 
-**AdapterRemoval**
+## AdapterRemoval
 Lindgreen, S. AdapterRemoval: easy cleaning of next-generation sequencing reads. BMC Res Notes 5, 337 (2012). https://doi.org/10.1186/1756-0500-5-337
 
-**Bowtie2**
+## Bowtie2
 Langdon, W.B. Performance of genetic programming optimised Bowtie2 on genome comparison and analytic testing (GCAT) benchmarks. BioData Mining 8, 1 (2015). https://doi.org/10.1186/s13040-014-0034-0
 
-**RSEM**
+## RSEM
 Li, B., Dewey, C.N. RSEM: accurate transcript quantification from RNA-Seq data with or without a reference genome. BMC Bioinformatics 12, 323 (2011). https://doi.org/10.1186/1471-2105-12-323
