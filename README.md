@@ -22,7 +22,6 @@ sudo bash Install_RNA_seq_to_TPM_Bowtie2.sh
 3. display installed pipelines (or software)
 ```
 pipelines
-
 ```
 4. show help contents
 ```
