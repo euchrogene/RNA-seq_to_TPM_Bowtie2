@@ -17,6 +17,7 @@ The counts data can be used for PyDESeq2 in this repository.
 ```
 wget https://github.com/euchrogene/RNA-seq_to_TPM_Bowtie2/raw/refs/heads/main/Install_RNA_seq_to_TPM_Bowtie2.sh
 sudo bash Install_RNA_seq_to_TPM_Bowtie2.sh
+rm Install_RNA_seq_to_TPM_Bowtie2.sh
 ```
 
 3. display installed pipelines (or software)
