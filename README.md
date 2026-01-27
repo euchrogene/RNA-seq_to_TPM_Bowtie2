@@ -1,4 +1,4 @@
-# This is for EuchroGene customers.
+# This is for EuchroGene Members.
 
 This is a pipeline to process RNA-seq raw data using AdapterRemoval (by default), map RNA-seq reads to the target gene using Bowtie2, and calculate TPM, FPKM, and counts using RSEM.
 
