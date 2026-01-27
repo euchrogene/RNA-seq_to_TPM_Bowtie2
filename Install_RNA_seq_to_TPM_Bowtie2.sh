@@ -7,7 +7,7 @@ EXE_FILE="RNA_seq_to_TPM_Bowtie2"
 PIPELINE_ENTRY="$EXE_FILE => A pipeline to process RNA-seqs to get TPM, FPKM, and Count data using AdapterRemoval=>Bowtie2=>RSEM"
 
 TARGET_BIN="/usr/bin"
-DATA_FILE="/usr/share/euchrogene_pipelines.txt"
+DATA_FILE="/usr/share/euchrogene_tools.txt"
 VIEWER_SCRIPT="$TARGET_BIN/eg_tools"
 
 echo "Step 1: Downloading repository..."
@@ -39,7 +39,7 @@ echo "Step 6: Ensuring the viewer script exists..."
 sudo bash -c "cat <<EOF > $VIEWER_SCRIPT
 #!/bin/bash
 echo ''
-echo '--- Registered EuchroGene Pipelines ---'
+echo '--- Registered EuchroGene Tools ---'
 cat $DATA_FILE
 echo '--------------------------------------'
 EOF"
@@ -49,5 +49,5 @@ sudo chmod +x "$VIEWER_SCRIPT"
 echo ""
 echo "Success! Installation complete and temporary files removed."
 echo ""
-echo "If you want to delete the pipeline list not used anymore, open the file in /usr/share/euchrogene_pipelines.txt and revise it."
+echo "If you want to delete the pipeline list not used anymore, open the file in /usr/share/euchrogene_tools.txt and revise it."
 
